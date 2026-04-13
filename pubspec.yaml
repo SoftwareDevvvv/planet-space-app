@@ -37,6 +37,7 @@ dependencies:
   share_plus: ^10.0.2
   url_launcher: ^6.3.0
   shared_preferences: ^2.2.3
+  font_awesome_flutter: ^10.7.0
 
 dev_dependencies:
   flutter_test:

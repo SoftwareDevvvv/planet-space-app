@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 import '../widgets/controls_sheet.dart';
@@ -7,8 +8,9 @@ class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
   static const _androidPackageId = 'softwaredevvvv.nurova';
-  static const _privacyPolicyUrl = '';
-  static const _openSourceUrl = '';
+  static const _privacyPolicyUrl =
+      'https://github.com/SoftwareDevvvv/planet-space-app/blob/main/PRIVACY_POLICY.md';
+  static const _openSourceUrl = 'https://github.com/SoftwareDevvvv/planet-space-app';
   static const _rateAppUrl =
       'https://play.google.com/store/apps/details?id=$_androidPackageId';
   static const _shareText =
@@ -41,8 +43,8 @@ class SettingsScreen extends StatelessWidget {
                   title: 'Open Source',
                   subtitle: _openSourceUrl.isEmpty
                       ? 'Add repo link later'
-                      : 'View repo',
-                  icon: Icons.code,
+                      : 'View GitHub repo',
+                  icon: FontAwesomeIcons.github,
                   onTap: () => _openLink(context, _openSourceUrl),
                 ),
                 _SettingsTile(

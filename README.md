@@ -1,16 +1,22 @@
-# orbital
+# Nurova
 
-A new Flutter project.
+Nurova is a Flutter app for exploring the solar system through an interactive orbital view, detailed planet profiles, and a knowledge quiz.
+
+## Features
+- Interactive orbital view with pan, zoom, and recenter controls
+- Planet grid with textured thumbnails and quick access to details
+- Planet detail pages with system snapshot facts
+- Quiz archive with multiple question sets and scoring
+- Settings with privacy policy, open source link, sharing, and ratings
+
+## Tech
+- Flutter
+- Local JSON assets for quiz content
+- Packages: shared_preferences, url_launcher, share_plus, font_awesome_flutter
+
+## Privacy Policy
+See [PRIVACY_POLICY.md](PRIVACY_POLICY.md).
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- flutter pub get
+- flutter run

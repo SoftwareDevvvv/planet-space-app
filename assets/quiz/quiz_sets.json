@@ -1,0 +1,371 @@
+{
+  "version": 1,
+  "sets": [
+    {
+      "id": "identify",
+      "title": "Identify the Planet",
+      "subtitle": "Visual recognition mission",
+      "questions": [
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Earth", "Mars", "Venus", "Neptune"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/earth_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Mars", "Jupiter", "Mercury", "Venus"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/mars_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Venus", "Saturn", "Earth", "Uranus"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/venus_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Jupiter", "Neptune", "Saturn", "Mars"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/jupiter_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Saturn", "Jupiter", "Uranus", "Mercury"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/saturn_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Uranus", "Neptune", "Earth", "Mars"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/uranus_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Neptune", "Uranus", "Jupiter", "Mercury"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/neptune_1k.jpg",
+          "imageStyle": "circle"
+        },
+        {
+          "prompt": "Identify the planet in the image.",
+          "options": ["Mercury", "Mars", "Venus", "Earth"],
+          "correctIndex": 0,
+          "type": "image",
+          "imageAsset": "assets/textures/mercury_1k.jpg",
+          "imageStyle": "circle"
+        }
+      ]
+    },
+    {
+      "id": "basics",
+      "title": "Planet Basics",
+      "subtitle": "Foundations of the solar system",
+      "questions": [
+        {
+          "prompt": "Which planet has the largest ring system?",
+          "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+          "correctIndex": 1,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet is closest in size to Earth?",
+          "options": ["Venus", "Mars", "Mercury", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Mars has how many moons?",
+          "options": ["0", "1", "2", "4"],
+          "correctIndex": 2,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the greatest mass?",
+          "options": ["Saturn", "Jupiter", "Neptune", "Earth"],
+          "correctIndex": 1,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet is the hottest on average?",
+          "options": ["Mercury", "Venus", "Earth", "Mars"],
+          "correctIndex": 1,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet is known as the Red Planet?",
+          "options": ["Mars", "Jupiter", "Mercury", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet is farthest from the Sun?",
+          "options": ["Uranus", "Neptune", "Saturn", "Jupiter"],
+          "correctIndex": 1,
+          "type": "mcq"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Orbit & Motion",
+      "subtitle": "Rotation, tilt, and orbital quirks",
+      "questions": [
+        {
+          "prompt": "Which planet has the shortest day (fastest rotation)?",
+          "options": ["Jupiter", "Earth", "Mars", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Venus rotates in the opposite direction to most planets.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet is known for its extreme axial tilt?",
+          "options": ["Mercury", "Uranus", "Venus", "Saturn"],
+          "correctIndex": 1,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Neptune has the strongest winds in the solar system.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        },
+        {
+          "prompt": "A day on Mercury is longer than its year.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet takes the longest to orbit the Sun?",
+          "options": ["Neptune", "Uranus", "Saturn", "Jupiter"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Venus rotates once every ~243 Earth days.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        }
+      ]
+    },
+    {
+      "id": "giants",
+      "title": "Giants & Ice",
+      "subtitle": "Outer planets and atmosphere",
+      "questions": [
+        {
+          "prompt": "Which planet is classified as an ice giant?",
+          "options": ["Jupiter", "Saturn", "Uranus", "Mercury"],
+          "correctIndex": 2,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Saturn is less dense than water.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet has the Great Red Spot?",
+          "options": ["Jupiter", "Saturn", "Neptune", "Uranus"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has a prominent ring system visible from Earth?",
+          "options": ["Mars", "Saturn", "Earth", "Venus"],
+          "correctIndex": 1,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Jupiter is mostly made of hydrogen and helium.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet has a deep blue color due to methane?",
+          "options": ["Neptune", "Mars", "Jupiter", "Mercury"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Uranus is the coldest planet by average temperature.",
+          "options": ["True", "False"],
+          "correctIndex": 0,
+          "type": "tf"
+        }
+      ]
+    },
+    {
+      "id": "mission-ops",
+      "title": "Mission Ops",
+      "subtitle": "Telemetry, sensors, and exploration",
+      "questions": [
+        {
+          "prompt": "Which planet has the largest known storm in the solar system?",
+          "options": ["Jupiter", "Saturn", "Neptune", "Earth"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet would have the strongest surface gravity for landers?",
+          "options": ["Jupiter", "Earth", "Mars", "Mercury"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has a dense CO2 atmosphere with sulfuric clouds?",
+          "options": ["Venus", "Mars", "Earth", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the largest moon in the solar system?",
+          "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        }
+      ]
+    },
+    {
+      "id": "deep-space",
+      "title": "Deep Space Navigation",
+      "subtitle": "Outer system and long-haul travel",
+      "questions": [
+        {
+          "prompt": "Which planet takes about 165 Earth years to orbit the Sun?",
+          "options": ["Neptune", "Uranus", "Saturn", "Jupiter"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has an axial tilt near 98 degrees?",
+          "options": ["Uranus", "Neptune", "Saturn", "Venus"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the faintest ring system among the giants?",
+          "options": ["Neptune", "Saturn", "Jupiter", "Uranus"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "The Kuiper Belt starts beyond the orbit of which planet?",
+          "options": ["Neptune", "Uranus", "Saturn", "Jupiter"],
+          "correctIndex": 0,
+          "type": "mcq"
+        }
+      ]
+    },
+    {
+      "id": "surface-systems",
+      "title": "Surface & Systems",
+      "subtitle": "Geology and defining features",
+      "questions": [
+        {
+          "prompt": "Which planet has Olympus Mons, the largest volcano in the solar system?",
+          "options": ["Mars", "Venus", "Earth", "Mercury"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet hosts the Valles Marineris canyon system?",
+          "options": ["Mars", "Mercury", "Venus", "Earth"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the most prominent ring system?",
+          "options": ["Saturn", "Jupiter", "Uranus", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the largest moon in the solar system (Ganymede)?",
+          "options": ["Jupiter", "Saturn", "Uranus", "Neptune"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Mercury has a substantial atmosphere.",
+          "options": ["True", "False"],
+          "correctIndex": 1,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet has the highest mean density?",
+          "options": ["Earth", "Mercury", "Venus", "Mars"],
+          "correctIndex": 0,
+          "type": "mcq"
+        }
+      ]
+    },
+    {
+      "id": "atmosphere-climate",
+      "title": "Atmosphere & Climate",
+      "subtitle": "Winds, temps, and air",
+      "questions": [
+        {
+          "prompt": "Which planet has the thickest atmosphere?",
+          "options": ["Venus", "Earth", "Mars", "Mercury"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has the strongest winds in the solar system?",
+          "options": ["Neptune", "Jupiter", "Saturn", "Uranus"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Mars' atmosphere is mostly nitrogen.",
+          "options": ["True", "False"],
+          "correctIndex": 1,
+          "type": "tf"
+        },
+        {
+          "prompt": "Which planet's atmosphere is primarily hydrogen and helium?",
+          "options": ["Jupiter", "Earth", "Mars", "Venus"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet has a methane-rich atmosphere giving it a blue tint?",
+          "options": ["Uranus", "Venus", "Mercury", "Earth"],
+          "correctIndex": 0,
+          "type": "mcq"
+        },
+        {
+          "prompt": "Which planet averages about 464 C on the surface?",
+          "options": ["Venus", "Mercury", "Earth", "Mars"],
+          "correctIndex": 0,
+          "type": "mcq"
+        }
+      ]
+    }
+  ]
+}

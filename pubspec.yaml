@@ -73,10 +73,6 @@ flutter:
     - assets/textures/uranus_1k.jpg
     - assets/textures/neptune_1k.jpg
     - assets/quiz/quiz_sets.json
-    - assets/icons/nav_overview.png
-    - assets/icons/nav_planets.png
-    - assets/icons/nav_quiz.png
-    - assets/icons/
 
 flutter_icons:
   android: true
